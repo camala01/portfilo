@@ -13,7 +13,7 @@
     cursor: pointer;
     padding: 14px 16px;
     font-size: 17px;
-    width: 25%;
+    width: 20%;
 }
 
 .tablink:hover {
@@ -24,14 +24,15 @@
 .tabcontent {
     color: white;
     display: none;
-    padding: 50px;
+    padding: 100px;
     text-align: center;
 }
 
-#London {background-color:red;}
+#DrawShapes {background-color:red;}
 #Paris {background-color:green;}
 #Tokyo {background-color:blue;}
 #Oslo {background-color:orange;}
+#hey {background-color:purple;}
 
 div.tab {
     overflow: hidden;
@@ -72,29 +73,26 @@ div.tab {
 </style>
 </head>
 <body>
-<button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">London</button>
-<button class="tablink" onclick="openCity('Paris', this, 'green')">Paris</button>
-<button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
-<button class="tablink" onclick="openCity('Oslo', this, 'orange')">Oslo</button>
-<button class="tablink" onclick="openCity('hey', this, 'orange')">hey</button>
+<button class="tablink" onclick="openCity('DrawShapes', this, 'red')">DrawShapes</button>
+<button class="tablink" onclick="openCity('Paris', this, 'green')">PaddleBall</button>
+<button class="tablink" onclick="openCity('Tokyo', this, 'blue')">ScrollGame</button>
+<button class="tablink" onclick="openCity('Oslo', this, 'orange')">TextAdventure.py</button>
+<button class="tablink" onclick="openCity('hey', this, 'purple')">DrawShapes.py</button>
 
 
 
-<div id="London" class="tabcontent">
+<div id="DrawShapes" class="tabcontent">
   <h3>Draw Shapes</h3>
-  <a href="https://scratch.mit.edu/projects/167421505/#fullscreen/">Visit this project</a> 
+  <a href="https://scratch.mit.edu/projects/167421505/#player">Visit this project</a> 
   <p>Using Scratch, I created a code where you can create shapes.</p>
 </div>
 
 <div id="Paris" class="tabcontent">
-  <h3>Paris</h3>
+  <h3>Paddle Ball</h3>
+  <a href="https://scratch.mit.edu/projects/167550713/">Visit this project</a> 
   <p>Paris is the capital of France.</p> 
 </div>
 
-<div id="Tokyo" class="tabcontent">
-  <h3>Tokyo</h3>
-  <p>Tokyo is the capital of Japan.</p>
-</div>
 
 
 <div id="Tokyo" class="tabcontent">
@@ -107,7 +105,7 @@ div.tab {
   <p>Tokyo is the capital of Japan.</p>
 </div>
  
- <div id="ff" class="tabcontent">
+ <div id="Oslo" class="tabcontent">
   <h3>Tokyo</h3>
   <p>Tokyo is the capital of Japan.</p>
 </div>
