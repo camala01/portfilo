@@ -3,7 +3,6 @@
 <head>
 <style>
 /* Style the tab */
-
 .tablink {
     background-color: #555;
     color: white;
@@ -14,32 +13,28 @@
     padding: 14px 16px;
     font-size: 17px;
     width: 20%;
+    margin-top: 300px;
+    margin-bottom: 100px;
 }
-
 .tablink:hover {
-    background-color: #777;
+    background-color: blue;
 }
-
 /* Style the tab content */
 .tabcontent {
     color: white;
     display: none;
     padding: 100px;
     text-align: center;
+    
 }
-
 #DrawShapes {background-color:red;}
 #Paris {background-color:green;}
 #Tokyo {background-color:blue;}
 #Oslo {background-color:orange;}
 #hey {background-color:purple;}
-
 div.tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+ 
 }
-
 /* Style the buttons inside the tab */
 	div.tab button {
     	background-color: red;
@@ -52,23 +47,23 @@ div.tab {
     	font-size: 17px;
 }
 
-/* Change background color of buttons on hover */
-	div.tab button:hover {
-    	background-color: blue;
-}
-
 /* Create an active/current tablink class */
 	div.tab button.active {
     	background-color: #ccc;
 }
-
 /* Style the tab content */
 	.tabcontent {
     	display: none;
     	padding: 5px 10px;
     	border: 1px solid #ccc;
     	border-top: none;
+   		
 }
+	body {
+    background-image: url("gradient_bg.png");
+
+}
+
     
 </style>
 </head>
@@ -123,7 +118,6 @@ function openCity(cityName,elmnt,color) {
     }
     document.getElementById(cityName).style.display = "block";
     elmnt.style.backgroundColor = color;
-
 }
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
